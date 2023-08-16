@@ -1,0 +1,37 @@
+.carduriexistente {
+    border-radius: 8px;
+    padding: 20px;
+    display: inline-block;
+    margin: 10px;
+    box-shadow: 4px 4px 10px rgba(248, 222, 34, 0.5);
+    background-color: #fff;
+    text-align: center;
+    width: 250px;
+}
+
+.carduriexistente img {
+    max-width: 100%;
+    height: auto;
+}
+
+.pnume {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.pnr {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.pvalabil {
+    font-size: 12px;
+    color: #777;
+}
+.title2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    color: #eeeeee;
+}

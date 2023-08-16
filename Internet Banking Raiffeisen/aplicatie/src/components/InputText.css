@@ -1,0 +1,26 @@
+.descriere {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    margin-top: 5px;
+    color: black;
+}
+
+.input {
+    width: 600px;
+    height: 45px;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    line-height: 1.5;
+    resize: vertical;
+}
+
+.input::placeholder {
+    color: #999;
+}
+
+.input:focus {
+    border-color: #f8de22;
+    outline: none;
+}

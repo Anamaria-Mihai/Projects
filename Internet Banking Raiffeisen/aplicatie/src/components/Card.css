@@ -1,0 +1,73 @@
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: 20px 0;
+    position: relative;
+}
+
+.p1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 8px;
+}
+
+.p2 {
+    font-size: 14px;
+    color: #666;
+    margin: 0 0 12px;
+}
+
+.amount {
+    font-size: 20px;
+    margin: 0;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.card-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.card-buttons .history {
+    width: 100%;
+    padding: 4px 8px;
+    color: black;
+    border: none;
+    border-radius: 0 0 0px 7px;
+    cursor: pointer;
+}
+
+.card-buttons a {
+    flex: 1;
+}
+
+.card-buttons .refund {
+    flex: 1;
+    padding: 4px 8px;
+    color: black;
+    border: none;
+    border-radius: 0 0 7px 0px;
+    cursor: pointer;
+}
+
+.card-buttons button:first-child {
+    border-right: 1px solid #ccc;
+    background-color: #ccc;
+    color: black;
+}
+
+.card-buttons button:first-child:hover {
+    background-color: #d8d9da;
+}
+.card-buttons button:hover {
+    background-color: #ffcc00;
+}

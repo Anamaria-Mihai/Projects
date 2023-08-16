@@ -1,0 +1,33 @@
+.Functionalitati {
+    width: 500px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 35px;
+}
+.alte-fct {
+    margin: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: color 0.3s, margin 0.3s, box-shadow 0.3s;
+}
+
+.functionalitati-list {
+    padding: 0;
+    margin: 0;
+}
+
+.functionalitati-list li {
+    margin: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.functionalitati-list li a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+}
+.functionalitati-list li a:hover {
+    color: #e7b10a;
+}

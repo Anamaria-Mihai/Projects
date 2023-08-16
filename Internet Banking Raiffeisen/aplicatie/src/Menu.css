@@ -1,0 +1,32 @@
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.menu-ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 6.5rem;
+}
+
+.menu-ul li {
+    margin: 0 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.nav-link:link,
+.nav-link:visited {
+    color: white; 
+}
+
+.nav-link:hover {
+    color: #f8de22;
+}

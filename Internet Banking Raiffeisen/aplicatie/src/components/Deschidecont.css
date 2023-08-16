@@ -1,0 +1,22 @@
+.cardnou {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: 20px 0;
+    position: relative;
+}
+.contnou {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 8px;
+}
+.add {
+    display: block;
+    margin: 20px auto;
+    font-size: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: #f8de22;
+}

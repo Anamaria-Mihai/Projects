@@ -1,0 +1,53 @@
+.background {
+    background-image: url('../../poze/backgroundImage.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.dincont {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    margin-top: 5px;
+}
+.transferuri-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.col {
+    flex: 1;
+    margin-right: 20px;
+}
+.pclass {
+    width: 400px;
+}
+
+.section {
+    margin: 5px 0;
+    width: 100%;
+}
+button {
+    background-color: #f8de22;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+button:hover {
+    background-color: #ffcc00;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:active {
+    background-color: #fd8d14;
+}
+
+.buttonss {
+    display: flex;
+    gap: 20px;
+}
